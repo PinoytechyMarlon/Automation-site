@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Industrial Automation Products | Your Brand</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-50">
+
+  <!-- Header -->
+  <header class="bg-gray-800 text-white">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-xl font-bold">Your Automation Store</h1>
+      <nav>
+        <ul class="flex space-x-6">
+          <li><a href="#" class="hover:text-yellow-400">Home</a></li>
+          <li><a href="#" class="hover:text-yellow-400">Products</a></li>
+          <li><a href="#" class="hover:text-yellow-400">Services</a></li>
+          <li><a href="#" class="hover:text-yellow-400">About</a></li>
+          <li><a href="#" class="hover:text-yellow-400">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-yellow-400 text-gray-900 py-16">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <h2 class="text-4xl font-bold mb-4">Empowering Your Automation</h2>
+      <p class="mb-6">Explore our wide range of Industrial Automation Products and Spare Parts.</p>
+      <a href="#" class="bg-gray-800 text-white px-6 py-3 rounded hover:bg-gray-700">Shop Now</a>
+    </div>
+  </section>
+
+  <!-- Featured Categories -->
+  <section class="py-12">
+    <div class="max-w-7xl mx-auto px-4">
+      <h3 class="text-2xl font-bold mb-8 text-center">Featured Categories</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        
+        <!-- PLCs -->
+        <div class="bg-white shadow-lg rounded-lg p-6 text-center">
+          <img src="plc.jpg" alt="PLCs" class="w-32 mx-auto mb-4">
+          <h4 class="text-xl font-semibold mb-2">PLCs</h4>
+          <p class="mb-4">Programmable Logic Controllers from leading brands.</p>
+          <a href="#" class="text-yellow-500 hover:underline">View Products</a>
+        </div>
+
+        <!-- Sensors -->
+        <div class="bg-white shadow-lg rounded-lg p-6 text-center">
+          <img src="sensor.jpg" alt="Sensors" class="w-32 mx-auto mb-4">
+          <h4 class="text-xl font-semibold mb-2">Sensors</h4>
+          <p class="mb-4">Photoelectric, Proximity, and Industrial Sensors.</p>
+          <a href="#" class="text-yellow-500 hover:underline">View Products</a>
+        </div>
+
+        <!-- Contactors -->
+        <div class="bg-white shadow-lg rounded-lg p-6 text-center">
+          <img src="contactor.jpg" alt="Contactors" class="w-32 mx-auto mb-4">
+          <h4 class="text-xl font-semibold mb-2">Contactors</h4>
+          <p class="mb-4">Motor starters and contactors for all applications.</p>
+          <a href="#" class="text-yellow-500 hover:underline">View Products</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About Us -->
+  <section class="bg-gray-100 py-12">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <h3 class="text-2xl font-bold mb-4">About Us</h3>
+      <p class="max-w-2xl mx-auto">We supply authentic industrial automation products and spare parts with fast delivery, competitive pricing, and technical support to ensure your operations run smoothly.</p>
+    </div>
+  </section>
+
+  <!-- Contact Us -->
+  <section class="py-12">
+    <div class="max-w-7xl mx-auto px-4">
+      <h3 class="text-2xl font-bold mb-4 text-center">Contact Us</h3>
+      <form class="max-w-xl mx-auto grid grid-cols-1 gap-4">
+        <input type="text" placeholder="Name" class="border rounded px-4 py-2">
+        <input type="email" placeholder="Email" class="border rounded px-4 py-2">
+        <input type="text" placeholder="Phone" class="border rounded px-4 py-2">
+        <textarea placeholder="Your Requirement" class="border rounded px-4 py-2"></textarea>
+        <button type="submit" class="bg-yellow-400 text-gray-900 px-6 py-3 rounded hover:bg-yellow-500">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-6">
+    <div class="max-w-7xl mx-auto px-4 text-center">
+      <p>&copy; 2025 Your Automation Store. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
